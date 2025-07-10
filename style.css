@@ -114,7 +114,7 @@ nav ul li a {
 /* about section start */
 
 .about {
-    max-width: 1040px;
+    max-width: 1140px;
     background-color: #FFF8F3;
     margin: 130px auto;
     border-radius: 10px;
@@ -142,8 +142,6 @@ nav ul li a {
 /* about section end */
 
 /* what i do section start */
-
-
 .skills {
     width: 1140px;
     text-align: center;
@@ -191,7 +189,7 @@ nav ul li a {
 }
 /*education starts here*/
 .edu_headline{
-    font-size: 30;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -233,7 +231,7 @@ nav ul li a {
 
 .exp_div .title{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: bold;
     color:#474747;
 }
 
@@ -244,8 +242,31 @@ nav ul li a {
 }
 
 .exp_div .company_exp{
-    font-size: 16px;
+    font-size: 18px;
     color: #757575;
 }
 /* experience ends here */
 /* resume ends here */
+
+footer{
+    display: flex;
+    width: 100%;
+    margin: 400px 0;
+}
+
+input{
+    width: 461px;
+    height: 64px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 24px 0;
+}
+
+textarea{
+    width: 461px;
+    height: 180px;
+}
+
+.col{
+    padding: 130px 230px;
+}
