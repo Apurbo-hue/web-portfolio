@@ -9,6 +9,13 @@
 
 
 /* nav styles */
+
+header{
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top,right bottom;
+   
+}
 nav{
     display: flex;
     align-items: center;
@@ -51,4 +58,40 @@ nav ul li a{
     color: white;
     padding: 18px 35px 19px 36px;
     border-radius: 5px;
+    border: 0px;
 }
+
+/* navbar end */
+
+
+/* banner styles start */
+
+.greet{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.greet-name{
+    font-size: 85px;
+}
+
+.banner-content
+{
+    max-width: 610px;
+}
+
+.banner-description{
+    font-size: 18px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.btn-download{
+    margin-right: 47px ;
+}
+
+/* banner styles end */
